@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    user-select: none;
+    background-color: #202020;
+}
+
+#user__agnt{
+    background-color: #fff;
+    color: #000;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+#searchname{
+    border: 2px solid #797777;
+    background-color: #202020;
+    width: 200px;
+    color: #fff;
+    height: 30px;
+    border-radius: 20px;
+    position: static;
+    transition: 0.6s;
+    margin-left: 20px;
+}
+/* start #searchname::placeholder */
+#searchname::placeholder{
+    color: royalblue;
+    transition: 0.6s;
+    margin-left: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+/* end #searchname::placeholder */
+
+#gear-setting{
+    color: whitesmoke;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#wrapper-setting{
+    width: 673px;
+    min-height: 473px;
+    height:auto ;
+    margin: 20px auto;
+    display: none;
+    position: fixed;
+    margin-left: 600px;
+    background-color: #111;
+}
+#wrapper-account{
+    width: 673px;
+    min-height: 473px;
+    height:auto ;
+    margin: 20px auto;
+    display: none;
+    position: fixed;
+    margin-left: 600px;
+    background-color: rgb(65, 64, 64);
+}
+
+#close-settings{
+    width: 20px;
+    cursor: pointer;
+    margin-left: 650px;
+}
+
+#close-account{
+    width: 20px;
+    cursor: pointer;
+    margin-left: 650px;
+}
+
+#darkmode{
+    cursor: pointer;
+    width: 100px;
+    margin-left: 10px;
+}
+
+#span-darkname{
+    cursor: pointer;
+    color: #fff;
+}
+
+#access{
+    cursor: pointer;
+    margin-left: 10px;
+    color: springgreen;
+}
+
+.accessoff{
+    cursor: pointer;
+    margin-left: 10px;
+    color: red;
+}
+
+#accessoff{
+    margin-left: 10px;
+    display: none;
+    cursor: pointer;
+    color: red;
+}
+
+#logout{
+    color: red;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 10px;
+    padding: 0px 0px 0px 0px;
+}
+
+.fa-arrow-right-from-bracket{
+    color: red;
+}
+
+#p-noticon{
+    cursor: pointer;
+    color: #999;
+    margin-left: 10px;
+}
+
+#mute-add__notif{
+    color: springgreen;
+    cursor: pointer;
+    display: none;
+    margin-left: 40px;
+    display: none;
+}
+
+#mute-add__notif-dis{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    margin-left: 40px;
+    display: none;
+}
+
+.fa-arrow-left{
+    cursor: pointer;
+    display: none;
+    color: #fff;
+    padding-left: 10px;
+}
